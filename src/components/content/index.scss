@@ -1,0 +1,98 @@
+.content {
+  .content__inner {
+    position: absolute;
+    top: 295px;
+    left: 179px;
+    height: 472px;
+    width: 1200px;
+    .grape {
+      position: absolute;
+      right: -130px;
+      bottom: -80px;
+      height: 878px;
+      width: 660px;
+      background: url("../../image/grape.png");
+      background-repeat: no-repeat;
+    }
+    .content__img-line {
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+    .content__text:nth-child(1) {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 67px;
+      letter-spacing: 0.06em;
+      color: #3f4042;
+    }
+    .content__text:nth-child(2) {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 93px;
+      letter-spacing: 0.06em;
+      color: #3f4042;
+    }
+    .content__text:nth-child(4) {
+      max-width: 525px;
+      font-family: "Avenir";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 147.6%;
+      letter-spacing: 0.06em;
+      color: #3f4042;
+    }
+    .content__block {
+      height: 64px;
+      width: 197px;
+      position: relative;
+      border: 2px solid #c08d5d;
+      border-right: 59px solid #c08d5d;
+      margin-top: 72px;
+      .content__button {
+        text-align: center;
+        font-family: "Avenir";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 147.6%;
+        letter-spacing: 0.06em;
+        padding: 15px;
+        background: #fffaf3;
+      }
+      .content__img {
+        position: absolute;
+        top: 25px;
+        right: -40px;
+      }
+    }
+  }
+  .content-logo {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    .content__inner {
+      position: static;
+      width: 600px;
+      padding: 20px;
+      margin: 0 auto;
+      .content__text:nth-child(4) {
+        max-width: 350px;
+      }
+      .grape {
+        position: relative;
+        top: -580px;
+        right: -240px;
+        height: 878px;
+        width: 660px;
+      }
+    }
+  }
+}
