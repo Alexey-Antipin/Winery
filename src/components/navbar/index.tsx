@@ -1,9 +1,7 @@
-import React from "react";
-import millet from "../../image/millet.png";
-import box from "../../image/box.png";
+import { millet, box } from "../../image";
 import "./index.scss";
 
-export const Navbar = () => {
+export const Navbar: React.FC = () => {
   return (
     <div className="navbar">
       <div className="navbar__inner">

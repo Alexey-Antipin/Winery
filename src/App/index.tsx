@@ -1,9 +1,8 @@
-import { Navbar } from "../components/navbar";
-import { Content } from "../components/content";
-import mouse from "../image/mouse.png";
+import { Navbar, Content } from "../components";
+import { mouse } from "../image";
 import "./index.scss";
 
-export const App = () => {
+export const App: React.FC = () => {
   const beginPage = () => {
     window.scrollTo(0, 0);
   };
@@ -14,6 +13,7 @@ export const App = () => {
         <Navbar />
         <Content />
       </div>
+
       <div className="mouse">
         <div className="mouse__point"></div>
         <div className="mouse__point"></div>
@@ -21,9 +21,11 @@ export const App = () => {
           className="mouse__img"
           src={mouse}
           alt="mouse"
-          onClick={() => beginPage()}/>
+          onClick={() => beginPage()}
+        />
       </div>
-      <footer className="footer"></footer>
+
+      <footer className="footer" />
     </>
   );
 };
