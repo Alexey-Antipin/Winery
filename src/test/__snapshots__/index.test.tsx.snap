@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Тестирование Все компоненты 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="navbar"
+        >
+          <div
+            class="navbar__inner"
+          >
+            <img
+              alt="box"
+              class="navbar__box"
+              src="box.png"
+            />
+            <div
+              class="navbar__container-list"
+            >
+              <ul
+                class="navbar__list"
+              >
+                <li
+                  class="navbar__text navbar__text--active"
+                >
+                  Home
+                </li>
+                <li
+                  class="navbar__text"
+                >
+                  About
+                </li>
+                <li
+                  class="navbar__text"
+                >
+                  Products
+                </li>
+              </ul>
+              <img
+                alt="millet"
+                class="logo logo-mobile"
+                src="millet.png"
+              />
+              <ul
+                class="navbar__list"
+              >
+                <li
+                  class="navbar__text"
+                >
+                  Recipes
+                </li>
+                <li
+                  class="navbar__text"
+                >
+                  FAQ
+                </li>
+                <li
+                  class="navbar__text"
+                >
+                  Help
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+        >
+          <div
+            class="content__inner"
+          >
+            <div
+              class="content__text"
+            >
+              Food
+              <img
+                alt="millet"
+                class="logo content-logo"
+                src="millet.png"
+              />
+            </div>
+            <div
+              class="content__text"
+            >
+              FARMING
+            </div>
+            <img
+              alt="vector"
+              class="content__img-line"
+              src="vectorLine.png"
+            />
+            <div
+              class="content__text"
+            >
+              Food Farming is proud of our past and excited about our future. We strive to continue being one of India and New Zealand's great food companies, offering quality fruits and vegetable.
+            </div>
+            <div
+              class="content__block"
+            >
+              <div
+                class="content__button"
+              >
+                Read More
+              </div>
+              <img
+                alt="vector"
+                class="content__img"
+                src="vector.png"
+              />
+            </div>
+            <div
+              class="grape"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="mouse"
+      >
+        <div
+          class="mouse__point"
+        />
+        <div
+          class="mouse__point"
+        />
+        <img
+          alt="mouse"
+          class="mouse__img"
+          src="mouse.png"
+        />
+      </div>
+      <footer
+        class="footer"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="navbar"
+      >
+        <div
+          class="navbar__inner"
+        >
+          <img
+            alt="box"
+            class="navbar__box"
+            src="box.png"
+          />
+          <div
+            class="navbar__container-list"
+          >
+            <ul
+              class="navbar__list"
+            >
+              <li
+                class="navbar__text navbar__text--active"
+              >
+                Home
+              </li>
+              <li
+                class="navbar__text"
+              >
+                About
+              </li>
+              <li
+                class="navbar__text"
+              >
+                Products
+              </li>
+            </ul>
+            <img
+              alt="millet"
+              class="logo logo-mobile"
+              src="millet.png"
+            />
+            <ul
+              class="navbar__list"
+            >
+              <li
+                class="navbar__text"
+              >
+                Recipes
+              </li>
+              <li
+                class="navbar__text"
+              >
+                FAQ
+              </li>
+              <li
+                class="navbar__text"
+              >
+                Help
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          class="content__inner"
+        >
+          <div
+            class="content__text"
+          >
+            Food
+            <img
+              alt="millet"
+              class="logo content-logo"
+              src="millet.png"
+            />
+          </div>
+          <div
+            class="content__text"
+          >
+            FARMING
+          </div>
+          <img
+            alt="vector"
+            class="content__img-line"
+            src="vectorLine.png"
+          />
+          <div
+            class="content__text"
+          >
+            Food Farming is proud of our past and excited about our future. We strive to continue being one of India and New Zealand's great food companies, offering quality fruits and vegetable.
+          </div>
+          <div
+            class="content__block"
+          >
+            <div
+              class="content__button"
+            >
+              Read More
+            </div>
+            <img
+              alt="vector"
+              class="content__img"
+              src="vector.png"
+            />
+          </div>
+          <div
+            class="grape"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="mouse"
+    >
+      <div
+        class="mouse__point"
+      />
+      <div
+        class="mouse__point"
+      />
+      <img
+        alt="mouse"
+        class="mouse__img"
+        src="mouse.png"
+      />
+    </div>
+    <footer
+      class="footer"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
