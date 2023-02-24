@@ -1,23 +1,27 @@
 import { millet, box } from "../../image";
+import { List } from "../list";
 import "./index.scss";
 
 export const Navbar: React.FC = () => {
+  const leftNavbar = [
+    { text: "Home", href: "./" },
+    { text: "About", href: "./" },
+    { text: "Products", href: "./" },
+  ];
+  const rightNavbar = [
+    { text: "Recipes", href: "./" },
+    { text: "FAQ", href: "./" },
+    { text: "Help", href: "./" },
+  ];
+
   return (
     <div className="navbar">
       <div className="navbar__inner">
         <img className="navbar__box" src={box} alt="box" />
         <div className="navbar__container-list">
-          <ul className="navbar__list">
-            <li className="navbar__text navbar__text--active">Home</li>
-            <li className="navbar__text">About</li>
-            <li className="navbar__text">Products</li>
-          </ul>
-          <img className="logo logo-mobile" src={millet} alt="millet"></img>
-          <ul className="navbar__list">
-            <li className="navbar__text">Recipes</li>
-            <li className="navbar__text">FAQ</li>
-            <li className="navbar__text">Help</li>
-          </ul>
+          <List massive={leftNavbar} cls={"text--active"} />
+          <img className="logo logo-mobile" src={millet} alt="millet" />
+          <List massive={rightNavbar} />
         </div>
       </div>
     </div>

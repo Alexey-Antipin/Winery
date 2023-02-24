@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  width: 305px;
+  .text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    list-style-type: none;
+    color: #000000;
+  }
+}
