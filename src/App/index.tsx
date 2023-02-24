@@ -15,8 +15,8 @@ export const App: React.FC = () => {
       </div>
 
       <div className="mouse">
-        <div className="mouse__point"></div>
-        <div className="mouse__point"></div>
+        <div className="mouse__point"/>
+        <div className="mouse__point"/>
         <img
           className="mouse__img"
           src={mouse}

@@ -14,8 +14,8 @@ export const List: React.FC<Props> = ({ massive, cls }) => {
   return (
     <ul className="list">
       {massive.map((item, index) => (
-        <li className={`text ${index === 0 && cls}`} key={index}>
-          {item.text}
+        <li  key={index}>
+          <a className={`text ${index === 0 && cls}`} href={item.href}>{item.text}</a>
         </li>
       ))}
     </ul>

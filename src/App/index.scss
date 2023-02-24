@@ -44,6 +44,10 @@ body {
   overflow-x: hidden;
 }
 
+li {
+  list-style-type: none;
+}
+
 @font-face {
   font-family: "Avenir";
   src: url(../font/AvenirLTStd-Black.otf) format("otf"), Sans-serif;

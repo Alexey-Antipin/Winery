@@ -5,13 +5,13 @@ import "./index.scss";
 export const Navbar: React.FC = () => {
   const leftNavbar = [
     { text: "Home", href: "./" },
-    { text: "About", href: "./" },
-    { text: "Products", href: "./" },
+    { text: "About", href: "./about" },
+    { text: "Products", href: "./products" },
   ];
   const rightNavbar = [
-    { text: "Recipes", href: "./" },
-    { text: "FAQ", href: "./" },
-    { text: "Help", href: "./" },
+    { text: "Recipes", href: "./recipes" },
+    { text: "FAQ", href: "./faq" },
+    { text: "Help", href: "./help" },
   ];
 
   return (
