@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import { Navbar, Content } from "../components";
-import { App } from "../app";
+import { App } from "../App";
 
 describe("Тестирование", () => {
   test("Все компоненты", () => {
